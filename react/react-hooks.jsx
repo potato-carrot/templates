@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-export default () => {
+const MyComponent =  () => {
   const [title, setTitle] = useState('标题');
 
   const init  = ()=>{
@@ -17,3 +17,5 @@ export default () => {
     </>
   );
 };
+
+export default MyComponent
